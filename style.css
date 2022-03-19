@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    max-width: 100%;
+    margin: auto;
+ 
+}
+
+.header{
+	background-image:url("C:/Users/Priya/Desktop/blog/images/bg.jpg");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+	padding:150px 0;
+}	
+
+.img{
+    width: 14%;
+    position:absolute;
+    top: 9%;
+    left: 13%;
+    margin: 0 auto;
+	
+
+}
+.heading{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: top;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 10px #000000;
+    padding-left: 35%;
+}
+.para{
+	color:black;
+    text-align:left;
+	font-size:1.5   rem;
+	padding-left:35%;
+}
+
+.topnav{
+ 
+  overflow: hidden;
+  background-color:#5F9EA0 ;
+  
+}
+
+	
+ .topnav a{
+	 float:left;
+	display:block;
+    color:#FFFAF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+.topnav a:hover{
+    background-color: #008B8B;
+    
+}
+.about{
+    padding: 20px;
+    font-size: 20px;
+}
+table, td, th{
+    border: 1px solid black;
+}
+th,td{
+    padding: 2px;
+}
+#contc{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contc a{
+    height: 100px;
+    width: 100px;
+    background-color: #FFFAF0;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px; 
+}
+
+#contc i{
+ transition: all 0.3s linear;
+}
+#contc a:hover i{
+    transform: scale(1.4);
+}
+.fa-whatsapp{
+color:#006400;
+}
+.fa-instagram{
+         color: #e84393;
+}
+.fa-envelope{
+ color:#8B0000;
+}
+.fa-linkedin{
+color:0097e6;
+}
+.fa-github{
+ color:black;
+}
